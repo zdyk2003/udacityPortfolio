@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Zoe Dyksman Portfolio</title>
 
 	<!-- Bootstrap -->
@@ -9,75 +11,78 @@
 	
 	<!-- CSS files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 <body>
 
 <!-- header -->
-	<div id="header">
-  		<div id="logo">
-			<img src="assets/images/zoeLogo.jpg" alt="logo" style="width:200px;height:100px;" >	
-		</div>
-		<div id="name">
-			<h1>Zoe Dyksman</h1>
-			<h3>Front-End Web Developer</h3>
-		</div>
+<div class="container">
+	<div class="row">
+		<div class="content">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="assets/images/zoeLogo.jpg" alt="logo" class="zoeLogo">	
+				</div>
+				<div class="col-md-6">
+					<h1 class="name">Zoe Dyksman</h1>
+					<h3 class="title">Front-End Web Developer</h3>
+				</div>
+			</div>
+		</div>	
 	</div>
+</div>
 
 <!-- main pic -->
 	<div class= "container">
 	    <div class="row">
-	    	<div class="col-sm-12">
-	    		<img src="assets/images/codeGirl1.jpg" alt="girl coding" id="codeGirl">
-	    	</div>	
-	    	<!-- photo credit: Photo by rawpixel.com on Unsplash -->
-	       <!--  <div class="col-sm-6">
-	            <div class="content">
-	                <img src="assets/images/zoe.jpg" alt= "headshot" id = "myPic">
-	            </div>
-	        </div> -->
-	        <!-- <div class="col-sm-6">
-	            <div class="content">
-	                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur praesentium dolorem dicta, non est facilis reiciendis perferendis architecto, nam voluptate, sequi repellendus esse voluptatibus provident aliquam adipisci. Voluptates, ratione, eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur praesentium dolorem dicta, non est facilis reiciendis perferendis architecto, nam voluptate, sequi repellendus esse voluptatibus provident aliquam adipisci. Voluptates, ratione, eveniet?</h4>
-	            </div>
-	        </div> -->
+	    	<div class="col-lg-12">
+		    	<div class="content">
+		    		<img src="assets/images/codeGirl1.jpg" class="img-responsive" alt="girl coding" id="codeGirl">
+		    		<!-- photo credit: Photo by rawpixel.com on Unsplash -->
+		    	</div>	
+	       </div>
 	    </div>  
 	</div>
 	
-
 <!-- thumbnails -->
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-      				<a href="https://zdyk2003.github.io/simonsProp/" target="_blank"><img class="card-img-top" src="assets/images/freelance.PNG" id="freelanceImg"></a>
-      				<div class="caption">
-        				<h3>Freelance Website</h3>
-        				<p>I love the design side of web development as well as the building side.  This is a freelance website that I am still working on.  I used HTML, CSS, Bootstrap, JavaScript, and jQuery to build this website.</p>
-      				</div>
-    			</div>
-  			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+		      				<a href="https://zdyk2003.github.io/simonsProp/" target="_blank"><img src="assets/images/freelance.PNG" class="img-fluid" id="freelanceImg"></a>
+		      				<div class="caption">
+		        				<h4>Freelance Website</h4>
+		        				<p>I love the design side of web development as well as the building side.  This is a freelance website that I am still working on.  I am using HTML, CSS, Bootstrap, JavaScript, and jQuery to build this website.  Click the image to see the site.</p>
+		      				</div>
+		    			</div>
+		  			</div>
 
-  			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-      				<a href="https://zdyk2003.github.io/TriviaGame/" target="_blank"><img class="card-img-top" src="assets/images/triviaImage.PNG" id="trivia"></a>
-      				<div class="caption">
-        				<h3>Goonie Trivia Game</h3>
-        				<p>My obsession with the cult classic "The Goonies" lead me to create a trivia game for testing the user's knowledge of the movie.  Are you a Goonie? I used HTML, CSS, and JavaScript.</p>
-      				</div>
-    			</div>
-  			</div>
+		  			<div class="col-md-4">
+						<div class="thumbnail">
+		      				<a href="https://zdyk2003.github.io/TriviaGame/" target="_blank"><img src="assets/images/triviaImage.PNG" class="img-fluid" id="trivia"></a>
+		      				<div class="caption">
+		        				<h4>Goonie Trivia Game</h4>
+		        				<p>My obsession with the cult classic "The Goonies" lead me to create a trivia game for testing the user's knowledge of the movie.  Are you a Goonie? I used HTML, CSS, and JavaScript.  Click the image to see the site.</p>
+		      				</div>
+		    			</div>
+		  			</div>
 
-  			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-      				<a href="https://stark-citadel-80828.herokuapp.com/" target="_blank"><img class="card-img-top" src="assets/images/burgerScreen.PNG"></a>
-      				<div class="caption">
-        				<h3>Eat-Da-Burger</h3>
-        				<p>I love burgers. So I made a burger game where the user gets to create and then eat their burger.  I used HTML, CSS, Bootstrap, Handlebars, JavaScript, node.js, and MySQL.  It is hosted on Heroku.</p>
-      				</div>
-    			</div>
-  			</div>
+		  			<div class="col-md-4">
+						<div class="thumbnail">
+		      				<a href="https://stark-citadel-80828.herokuapp.com/" target="_blank"><img src="assets/images/burgerScreen.PNG" class="img-fluid" ></a>
+		      				<div class="caption">
+		        				<h4>Eat-Da-Burger</h4>
+		        				<p>I love burgers. So I made a burger game where the user gets to create and then eat their burger.  I used HTML, CSS, Bootstrap, Handlebars, JavaScript, node.js, and MySQL.  It is hosted on Heroku.  Click the image to see the site.</p>
+		      				</div>
+		    			</div>
+		  			</div>
+		  		</div>
+	  		</div>
 		</div>
 	</div>
 
