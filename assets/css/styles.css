@@ -1,55 +1,94 @@
-body {font-family: 'Roboto', sans-serif;}
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
-h1 {font-size: 60px; margin-bottom: 0;}
+h1 {
+	font-size: 60px; margin-bottom: 0;
+}
 
-h3 {font-size: 20; font-style: italic; margin-top: 5px;}
+h3 {
+	font-size: 24px; font-style: italic; margin-top: 5px;
+}
 
-h4 {font-size: 18; text-align: center; font-weight: bold;}
+h4 {
+	font-size: 18px; text-align: center; font-weight: bold;
+}
 
-p {text-align: center;}
+p {
+	text-align: center;
+}
 
-.container {background-size: cover; background-position: center;}
+.container {
+	background-size: cover; background-position: center;
+}
 
 /*header*/
-.zoeLogo {width: 200px; height: 100px; float: left; padding-top: 15px;}
+.zoelogo {
+	width: 200px; height: 100px; float: left; padding-top: 15px;
+}
 
-.name, .title {text-align: right; float: right;}
+.name, .title {
+	text-align: right; float: right;
+}
 
 /*main pic*/
-#codeGirl {display: block; margin-left: auto; margin-right: auto; width: 1200px; padding: 10px; border-radius: 20px;}
+#codegirl {
+	display: block; margin-left: auto; margin-right: auto; width: 1200px; padding: 10px; border-radius: 20px;
+}
 
-#projects {padding-top: 15px;}
+#projects {
+	padding-top: 15px;
+}
 
-#freelanceImg {margin-top: 15px; cursor: pointer;}
+#freelanceimg {
+	margin-top: 15px; cursor: pointer;
+}
 
 /*thumbnails*/
-.thumbnail {border: 1px solid #888; box-shadow: 1px 1px #888;}
+.thumbnail {
+	border: 1px solid #888; box-shadow: 1px 1px #888;
+}
 
 /*media queries*/
 
 @media screen and (max-width: 900px) {
 	
-	.container {padding-left: 40px; padding-right: 40px;}
+	.container {
+		padding-left: 40px; padding-right: 40px;
+	}
 
-	.zoeLogo {float: none; display:block; margin:0 auto;}
+	.zoelogo {
+		float: none; display:block; margin:0 auto;
+	}
 
-	.name, .title {text-align: center; float: none;}
+	.name, .title {
+		text-align: center; float: none;
+	}
 
-	#projects {padding: 20px 50px 50px 50px;}
-
+	#projects {
+		padding: 20px 50px 50px 50px;
+	}
 
 }
 
 @media screen and (max-width: 768px) {
 	
-	h1 {font-size: 50px;}
+	h1 {
+		font-size: 50px;
+	}
 
-	#projects {padding: 15px 40px 40px 40px;}
+	#projects {
+		padding: 15px 40px 40px 40px;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	
-	h1 {font-size: 40px;}
+	h1 {
+		font-size: 40px;
+	}
 	
-	h3 {font-size: 18px;}
+	h3 {
+		font-size: 18px;
+	}
 }
