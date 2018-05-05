@@ -1,8 +1,8 @@
 body {font-family: 'Roboto', sans-serif;}
 
-h1 {font-size: 60px;}
+h1 {font-size: 60px; margin-bottom: 0;}
 
-h3 {font-size: 20; font-style: italic;}
+h3 {font-size: 20; font-style: italic; margin-top: 5px;}
 
 h4 {font-size: 18; text-align: center; font-weight: bold;}
 
@@ -16,7 +16,9 @@ p {text-align: center;}
 .name, .title {text-align: right; float: right;}
 
 /*main pic*/
-#codeGirl {display: block; margin-left: auto; margin-right: auto; width: 900px; padding: 30px; border-radius: 35px;}
+#codeGirl {display: block; margin-left: auto; margin-right: auto; width: 1200px; padding: 10px; border-radius: 20px;}
+
+#projects {padding-top: 15px;}
 
 #freelanceImg {margin-top: 15px; cursor: pointer;}
 
@@ -32,16 +34,22 @@ p {text-align: center;}
 	.zoeLogo {float: none; display:block; margin:0 auto;}
 
 	.name, .title {text-align: center; float: none;}
+
+	#projects {padding: 20px 50px 50px 50px;}
+
+
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 	
 	h1 {font-size: 50px;}
+
+	#projects {padding: 15px 40px 40px 40px;}
 }
 
 @media screen and (max-width: 400px) {
 	
 	h1 {font-size: 40px;}
-	h3 {font-size: 18px;
-	}
+	
+	h3 {font-size: 18px;}
 }
